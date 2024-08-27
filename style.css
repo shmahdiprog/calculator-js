@@ -1,0 +1,87 @@
+@font-face {
+    font-family: vazir;
+    src: url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+}
+@font-face {
+    font-family: lalezar;
+    src: url('https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@100..900&display=swap');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: lalezar;
+}
+a{
+    all: unset;
+}
+h1{
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+}
+h2 {
+    position: absolute;
+    top: 50px;
+}
+#container {
+    position: absolute;
+    top:100px;
+    background-color: #001D3D;
+    border-radius: 10px;
+    width: 375px;
+    height: 600px;
+    padding: 15px;
+}
+#show {
+    background-color: #003566;
+    color: #E6F9FF;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    font-family: vazir;
+    width: 360px;
+    height: 100px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.line {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.symbol , .number{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#firstState {
+    font-size: 35px;
+    font-weight: normal;
+}
+.number {
+    background-color: #FFD60A;
+}
+.symbol {
+    background-color: #FFC300;
+}
+.symbol:hover , .number:hover {
+    box-shadow: 1px 1px 10px 15px #003566;
+    font-size: 60px;
+}
+
+.number:hover {
+    font-size: 50px;
+}
+
+#line5 {
+    justify-content: left;
+    margin-left: 10px;
+}
